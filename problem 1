@@ -1,0 +1,12 @@
+multiples = []     ## this list created for saving the numbers in it
+for i in range(3,1000):
+    if i % 3 == 0:
+        multiples.append(i)
+    elif i % 5 ==0:
+        multiples.append(i)
+    else:
+        pass
+sum = 0            ## this 
+for j in multiples:
+    sum += j
+print(sum)
