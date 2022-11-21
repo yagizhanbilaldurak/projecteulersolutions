@@ -6,7 +6,7 @@ for i in range(3,1000):
         multiples.append(i)
     else:
         pass
-sum = 0            ## this 
+sum = 0            
 for j in multiples:
     sum += j
 print(sum)
